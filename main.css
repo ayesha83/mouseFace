@@ -1,0 +1,101 @@
+
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+#face {
+    background-color: gray;
+    width: 500px;
+    height: 500px;
+    border-radius: 300px;
+}
+
+#ear1 {
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+}
+
+#ear2 {
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    border-radius: 300px;
+}
+
+#ears {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -40px;
+}
+#eyes{
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#leftEye{
+    width: 50px;
+    height: 100px;
+    background:black;
+    border-radius: 25px / 50px;
+    margin-left: 20px;
+}
+#rightEye{
+    
+    width: 50px;
+    height: 100px;
+    background:black;
+    border-radius: 25px / 50px;
+    margin-right: 10px;
+}
+#nose{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px/50px;
+    margin-top:50px;
+    align-self: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#mouth{
+    border: solid gray 5px;
+    width: 100px;
+    height: 100px;
+    font-family:'Open Sans', sans-serif;
+    font-size: xx-large;
+    transform:rotate(90deg);
+    margin-left: 229px;
+    margin-top: -10px;
+}
+#tongue{
+    background-color:red;
+    width: 48px;
+    height: 71px;
+    margin: 69px auto 0px;
+    border-radius: 50% 50% 0 0/100% 100% 0 0;
+    transform: rotate(88deg);
+    margin-top: -121px;
+    flex-direction: column;
+    margin-left:45px;
+    margin-right:109px;
+    justify-content: flex-start
+
+}
+@keyframes eyesBlink{
+    0%{
+        color: aliceblue;
+        opacity: 0;
+      }
+    100%{
+        color: black;
+        opacity: 1;
+    }
+}
+#eyes{
+    animation:eyesBlink 2s infinite;
+}
