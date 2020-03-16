@@ -99,3 +99,30 @@
 #eyes{
     animation:eyesBlink 2s infinite;
 }
+
+#feedMe{
+    font-size:  24px;
+    padding: 16px;
+    align-items: center;
+    margin-left: 350px;
+    border-radius: 20px
+}
+
+#playWithMe{
+    font-size:  24px;
+    padding: 16px;
+    align-items: center;
+    margin-left: 350px;
+    border-radius: 20px;
+}
+h1{
+    text-align: center
+}
+
+#feedPoints{
+    text-align: center;
+}
+
+#playPoints{
+    text-align: center;
+}
