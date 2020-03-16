@@ -1,4 +1,5 @@
-
+let name = prompt("What is your pet name?");
+document.getElementById("name").innerHTML=name;
 var output = 10;
 // function to add points when feeding
 let addPoints = () => {

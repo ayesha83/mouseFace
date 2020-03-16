@@ -126,3 +126,9 @@ h1{
 #playPoints{
     text-align: center;
 }
+
+#name{
+    text-align: center;
+    font-size: 40px;
+    font-style: bold;
+}
