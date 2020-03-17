@@ -15,8 +15,12 @@ let subtractPoints = () => {
     //display points
     document.getElementById("playPoints").innerHTML=output;
     if(output < 0){
-        document.getElementById("noEnergyLeft").innerHTML="No More Energy";
         output = 0;
-        document.getElementById("noEnergyLeft").style.display="none";
+        document.getElementById("noEnergyLeft").innerHTML="No More Energy";
+        //hiding the result
+        document.getElementById("playPoints").style.display="none";
+    }
+        else{
+                document.getElementById("noEnergyLeft").innerHTML=output;
     }
 }
